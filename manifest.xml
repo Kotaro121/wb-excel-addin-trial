@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WB の図 試作（Excel アドイン）。置き場は GitHub Pages -->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+  <Id>fa50f4d6-48ae-42f3-a239-352916113192</Id>
+  <Version>0.1.0.0</Version>
+  <ProviderName>WB figure trial</ProviderName>
+  <DefaultLocale>ja-JP</DefaultLocale>
+  <DisplayName DefaultValue="WB の図 試作"/>
+  <Description DefaultValue="アプリと同じ WB の図を、Excel の図表として描けるかを試す"/>
+  <IconUrl DefaultValue="https://kotaro121.github.io/wb-excel-addin-trial/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://kotaro121.github.io/wb-excel-addin-trial/icon-64.png"/>
+  <SupportUrl DefaultValue="https://kotaro121.github.io/wb-excel-addin-trial/taskpane.html"/>
+  <AppDomains>
+    <AppDomain>https://kotaro121.github.io</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://kotaro121.github.io/wb-excel-addin-trial/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
